@@ -8,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- STYLES -->
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -18,9 +19,13 @@
     <meta property="og:title" content="Hale Metal | Acasă">
     <meta property="og:image" content="etyouradresshere/X.png/">
     <meta property="og:description" content="X">
+
+    <script src="js/wow.js"></script>
+    <script src="js/start-wow.js"></script>
 </head>
 <body>
     <div class="menu-open">
+        <div class="fake"></div>
         <div class="content">
             <a href="#home"><p>Acasă</p></a>
             <a href="#"><p>Serviciile noastre</p></a>
@@ -38,13 +43,60 @@
         </div>
         <div class="primary-text">
             <div class="mytext">
-                <h1>Confectionam hale metalice.</h1>
-                <p>Cu noi veti gasi solutia optima pentru constructie hala metalica standard sau la comanda, conform cu necesitatile dvs.</p>
+                <h1 class="wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="1s">Confectionam hale metalice.</h1>
+                <p class="wow slideInLeft" data-wow-duration="0.3s" data-wow-delay="1s">Cu noi veti gasi solutia optima pentru constructie hala metalica standard sau la comanda, conform cu necesitatile dvs.</p>
             </div>
         </div>
     </div>
-    <div class="servici">
-        <h1 class="serv-titile">Ce servicii oferim?</h1>
+    <div class="despre container">
+        <h1 class="despre-titile wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">Despre noi.</h1>
+        <p class="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">Confectionam <span class="bold"> hale metalice din europrofile sau teava patrata</span>.<br /><br />
+            &#8226; O hala este construita din materiale de <span class="bold">calitate, omologate si testate</span>. Hala metalica demontabila, va ofera atat eficienta in exploatare, costuri minime de mentenanta, cat si o imagine noua. O altfel de imagine fata de concurenta.
+            Fiecare angajat al firmei noastre este pregatit sa raspunda cerintelor oricarui proiect. <br /><br />&#8226; Aceasta este <span class="bold">cheia succesului nostru</span>.
+            Fie ca aveti nevoie de o hala cu destinatie de spatiu comercial sau industrial, fie pentru agricultura, va putem oferi o solutie durabila si potrivita cu fondurile de care dispuneti - hale metalice la cheie. Livram/executam structuri sau sisteme complete de hale cu structura metalica usoara, din teava patrata sau europrofile, care asigura functionalitate, flexibilitate si valoare.
+            Cu noi veti gasi solutia optima pentru constructie hala metalica standard sau la comanda, conform cu necesitatile dvs.<br /><br />
+            &#8226; Societatea noastra mai comerciaza si teava rotunda trasa sau sudata longitudinal sau elicodial.
+            De la DN-108 pana la DN-1220, iar toate produsele sunt noi.<br /><br />
+            <span class="bold1">&#8226; Toate produsele noastre au testarile si autorizatiile necesare pentru cele mai exigente standarde in constructii</span>.
+        </p>
+    </div>
+    <div class="servicii container">
+        <h1 class="serv-titile wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">Ce servicii oferim?</h1>
+        <div class="row">
+            <div class="col-12">
+                <div class="box wow fadeIn" data-wow-delay="0.5s">
+                    <p>Consultanta in alegerea celei mai bune solutii.</p>
+                    <img src="img/consulting.svg">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box wow fadeIn" data-wow-delay="0.5s">
+                    <p>Livrarea tuturor materialelor ce intra in componenta cladirii.</p>
+                    <img src="img/delivery-truck.svg">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box wow fadeIn" data-wow-delay="0.5s">
+                    <p>Transportul segmentelor de cladire neasamblate, la locul constructiei.</p>
+                    <img src="img/map.svg">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box wow fadeIn" data-wow-delay="0.5s">
+                    <p>Oferim montajul constructiei.</p>
+                    <img src="img/compose.svg">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box wow fadeIn" data-wow-delay="0.5s">
+                    <p>Garantii si servicii postgarantie.</p>
+                    <img src="img/telemarketer.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact container">
+        <h1 class="serv-titile wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">Contact.</h1>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
