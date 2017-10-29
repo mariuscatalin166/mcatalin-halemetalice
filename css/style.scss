@@ -180,7 +180,6 @@ body {
         transition: all 0.3s ease;
     }
     .menu-open .content p {
-        box-shadow: 2px 2px 10px rgba(8, 7, 5, 0.3);
         margin: 10px 0;
         border-bottom: 1.5px solid rgba(8, 7, 5, 0.3);
         padding: 5px 10px; 
@@ -299,5 +298,65 @@ body {
             padding-left: 8px;
             margin: 20px auto;
         }
+    }
+    .contact-box {
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        background-color: $darkgrey;
+            .tit {
+                color: white;
+                font-weight: 100;
+                padding: 10px;
+                font-size: 3.5vh;
+            }
+    }
+    .content {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .num {
+        display: inline-block;
+        padding: 15px;
+        margin: 10px auto;
+        a {
+            border-bottom: 3px solid $red;
+            padding: 5px;
+            font-size: 5vh;
+            color: $darkgrey;
+            background-color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+    .num1 {
+        display: inline-block;
+        padding: 10px;
+        margin: 2% auto;
+        a {
+            padding: 5px;
+            font-size: 3vh;
+            color: $darkgrey;
+            background-color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+    .contact-us-header1 {
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1.5px solid white;
+        border-radius: 12px;
+        box-shadow: 2px 5px 15px rgba(8, 7, 5, 0.2);
+        transition: 0.3s ease-in-out;
+    }
+    .contact-us-header1:hover {
+        background-color: white;
+        color: $grey;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
     }
 }
