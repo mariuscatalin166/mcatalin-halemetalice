@@ -327,6 +327,12 @@ body {
     .sign a {
       color: #db162f; } }
 
+.copy,
+.sign {
+  font-family: "Source Sans Pro", sans-serif; }
+
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .content {
-    text-align: left; } }
+    text-align: left; }
+  .menu-open .content {
+    margin-top: 5%; } }
