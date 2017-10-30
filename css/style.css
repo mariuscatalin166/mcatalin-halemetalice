@@ -53,6 +53,9 @@ body {
   overflow: initial; }
 
 @media screen and (max-width: 1024px) {
+  .header-pc,
+  .present-pc {
+    display: none; }
   .burger-button {
     z-index: 99;
     padding-top: 5px;
@@ -169,7 +172,7 @@ body {
     width: 100%;
     background-color: #080705; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .header {
     font-family: "Open Sans", sans-serif;
     background: linear-gradient(to bottom, rgba(8, 7, 5, 0.8), rgba(8, 7, 5, 0.3));
@@ -336,3 +339,80 @@ body {
     text-align: left; }
   .menu-open .content {
     margin-top: 5%; } }
+
+@media screen and (min-width: 1024px) {
+  body {
+    overflow-x: hidden; }
+  .header,
+  .menu-open {
+    display: none; }
+  .all {
+    display: block;
+    min-width: 1024px;
+    max-width: 1025px;
+    margin: 0 auto; }
+  .header-pc {
+    position: fixed;
+    z-index: 99;
+    box-shadow: 2px 2px 15px rgba(8, 7, 5, 0.5);
+    font-family: "Open Sans", sans-serif;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: #db162f; }
+    .header-pc .links {
+      padding: 15px;
+      display: inline-block;
+      float: right;
+      margin-right: 50px; }
+    .header-pc .img-logo {
+      display: inline-block;
+      width: 69px;
+      padding: 0;
+      vertical-align: middle; }
+    .header-pc .mylogo:hover {
+      margin-left: 60px;
+      transition: all 0.3s ease; }
+    .header-pc .mylogo {
+      margin-left: 50px;
+      display: inline-block;
+      transition: all 0.3s ease; }
+    .header-pc .logo {
+      vertical-align: middle;
+      display: inline-block;
+      color: white;
+      font-weight: 700;
+      font-size: 26px;
+      word-spacing: -5px; }
+    .header-pc a {
+      margin-left: 10px;
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      padding-bottom: 3px; }
+    .header-pc a:hover {
+      opacity: 0.8;
+      border-bottom: 1px solid #fffbfc;
+      transition: all 0.3s ease; }
+    .header-pc a,
+    .header-pc .logo {
+      cursor: pointer; }
+  .present-pc {
+    width: 100%;
+    padding: 5px;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(44, 44, 52, 0.95) 20%, rgba(219, 22, 47, 0.7) 80%), url(../img/1.jpg); }
+    .present-pc .content {
+      font-family: "Source Sans Pro", sans-serif;
+      position: relative;
+      top: 45%;
+      left: 10%;
+      color: #fffbfc; }
+      .present-pc .content h1 {
+        font-size: 60px;
+        margin-top: 20px; }
+      .present-pc .content p {
+        font-size: 18px;
+        font-weight: 100;
+        opacity: 0.7; } }
