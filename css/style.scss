@@ -62,6 +62,7 @@ table {
 body {
     overflow: initial;
 }
+
 @media screen and (max-width: 1024px) {
     .header-pc,
     .present-pc {
@@ -76,10 +77,12 @@ body {
         width: 50px;
         height: 50px;
         cursor: pointer;
+        will-change: transform;
     }
     .bb-open {
         background-color: rgba(8, 7, 5, 0.8);
         padding-right: 20px;
+        will-change: transform;
     }
     .burger {
         position: absolute;
@@ -91,6 +94,7 @@ body {
         background-color: white;
         box-shadow: 0px 2px 5px rgba(8, 7, 5, 0.3);
         transition: 0.5s;
+        will-change: transform;
     }
     .burger:before,
     .burger:after {
@@ -101,6 +105,7 @@ body {
         background-color: white;
         box-shadow: 0px 2px 5px rgba(8, 7, 5, 0.3);
         transition: 0.5s;
+        will-change: transform;
     }
     .burger:before{
         top: -10px;
@@ -157,6 +162,7 @@ body {
         background-color: $white;
         z-index : 99;
         transition: all 0.3s ease;
+        will-change: transform;
     }
     .is-active-menu {
         position: fixed;
@@ -284,6 +290,7 @@ body {
             margin: 20px auto;
         }
         p {
+            line-height: 150%;
             font-size: 3vh;
             font-weight: 200;
         }
@@ -480,24 +487,172 @@ body {
     }
     .present-pc {
         width: 100%;
-        padding: 5px;
         height: 100vh;
         background: linear-gradient(to bottom, rgba(44, 44, 52, 0.95)20%, rgba(219, 22, 47, 0.7)80%), url(../img/1.jpg);
         .content {
-            font-family: "Source Sans Pro", sans-serif;
+            font-family: "Open Sans", sans-serif;
             position: relative;
             top: 45%;
-            left: 10%;
             color: $white;
-            h1 {
-                font-size: 60px;
-                margin-top: 20px;
+            text-align: center;
+            .tit-present {
+                font-size: 65px;
+                font-weight: 700;
             }
             p {
-                font-size: 18px;
-                font-weight: 100;
+                font-weight: 200;
+                margin-top: 10px;
+                font-size: 22px;
                 opacity: 0.7;
+                font-style: italic;
             }
+        }
+    }
+    .servicii {
+        font-family: "Open Sans", sans-serif;
+        color: $darkgrey;
+        h1 {
+            font-size: 40px;
+            border-left: 8px solid $red;
+            padding-left: 8px;
+            margin: 20px auto;
+        }
+        .box {
+            text-align: center;
+            color: $darkgrey;
+            padding: 40px 0;
+            box-shadow: 3px 3px 15px rgba(8, 7, 5, 0.3);
+        }
+        p {
+            font-size: 3vh;
+            font-weight: 200;
+        }
+        img {
+            margin-top: 20px;
+            height: 80px;
+            width: 80px;
+        }
+    }
+    .despre {
+        font-family: "Open Sans", sans-serif;
+        color: $darkgrey;
+        h1 {
+            font-size: 40px;
+            border-left: 8px solid $red;
+            padding-left: 8px;
+            margin: 20px auto;
+        }
+        p {
+            font-size: 25px;
+            line-height: 150%;
+            font-weight: 200;
+        }
+        .bold {
+            font-weight: 500;
+        }
+        .bold1 {
+            color: $red;
+            font-weight: 500;
+            font-style: italic;
+        }
+    }
+    .contact {
+        font-family: "Open Sans", sans-serif;
+        color: $darkgrey;
+        h1 {
+            font-size: 40px;
+            border-left: 8px solid $red;
+            padding-left: 8px;
+            margin: 20px auto;
+        }
+    }
+    .contact-box {
+        padding: 20px 0;
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        background-color: $darkgrey;
+        text-align: center;
+            .tit {
+                color: white;
+                font-weight: 100;
+                padding: 10px;
+                font-size: 30px;
+            }
+    }
+    .content-contact {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .num {
+        display: inline-block;
+        padding: 15px;
+        margin: 10px auto;
+        a {
+            border-bottom: 3px solid $red;
+            padding: 5px;
+            font-size: 30px;
+            color: $darkgrey;
+            background-color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+    .num1 {
+        display: inline-block;
+        padding: 10px;
+        margin: 5px auto 0 auto;
+        margin-top: 10px;
+        a {
+            border-radius: 15px;
+            padding: 5px;
+            font-size: 30px;
+            color: $darkgrey;
+            background-color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+    .galerie {
+        font-family: "Source Sans Pro", sans-serif;
+        width: 100%;
+        height: 100px;
+        background-color: $red;
+        margin: 20px auto;
+        text-align: center;
+        text-decoration: none;
+        .text {
+            display: block;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            text-decoration: none;
+            p,
+            span,
+            a {
+                display: inline-block;
+                font-size: 4.5vh;
+                color: $white;
+                text-decoration: none;
+            }
+            span {
+                margin-left: 5px;
+            }
+        }
+    }
+    .copy {
+        text-align: center;
+        color: $darkgrey;
+        font-size: 12px;
+    }
+    .sign {
+        margin-top: -10px;
+        text-align: center;
+        color: $darkgrey;
+        font-size: 12px;
+        a {
+            color: $red;
         }
     }
 }
