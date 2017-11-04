@@ -130,6 +130,9 @@ body {
   overflow-x: hidden;
   background-color: #db162f; }
 
+.hide-overflow {
+  overflow: hidden; }
+
 .content {
   background: linear-gradient(#cb2d3e, #ef473a);
   font-family: "Open Sans", sans-serif;

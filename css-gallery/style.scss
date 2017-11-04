@@ -141,6 +141,9 @@ body {
     overflow-x: hidden;
     background-color: $red;
 }
+.hide-overflow {
+    overflow: hidden;
+}
 .content {
     background: linear-gradient(#cb2d3e, #ef473a);
     font-family: "Open Sans", sans-serif;
