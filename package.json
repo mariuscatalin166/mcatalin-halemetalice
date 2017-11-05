@@ -1,6 +1,5 @@
 {
-  "name": "wikipedia-viewer",
-  "description": "FCC wikipedia-viewer app project.",
+  "name": "hale-metalice",
   "scripts": {
     "start": "npm run gulp && concurrently \"npm run gulp-watch\" \"npm run lite\"",
     "lite": "lite-server",
