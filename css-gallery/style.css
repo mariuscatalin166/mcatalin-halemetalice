@@ -126,6 +126,41 @@ table {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.img-9 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-10 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-11 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-12 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-13 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-14 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img14.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-15 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 body {
   overflow-x: hidden;
   background-color: #db162f; }
@@ -161,11 +196,13 @@ body {
     .pop-out .img {
       display: inline-block;
       position: absolute;
-      top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translateX(-50%);
       max-width: 50%;
       max-height: 50%; }
+      .pop-out .img img {
+        max-height: 100%;
+        max-width: 100%; }
       .pop-out .img span {
         color: white;
         font-size: 45px;
