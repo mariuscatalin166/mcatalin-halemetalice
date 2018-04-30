@@ -207,7 +207,7 @@ body {
     transform: translate(-50%, -40%);
     padding: 0px 6%; }
   .mytext h1 {
-    font-size: 6.5vh;
+    font-size: 6vh;
     font-weight: 700;
     margin-bottom: 2.5%; }
   .mytext p {
@@ -544,3 +544,20 @@ body {
     font-size: 12px; }
     .sign a {
       color: #db162f; } }
+      
+@media screen and (max-width: 700px) {
+  .num1 {
+      display: inline-block;
+      padding: 15px;
+      margin: 5px auto;
+  }
+  .num1 a {
+    border-bottom: 3px solid $red;
+    padding: 5px;
+    font-size: 5vw;
+    color: #2c2c34;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}

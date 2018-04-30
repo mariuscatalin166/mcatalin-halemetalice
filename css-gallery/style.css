@@ -161,6 +161,75 @@ table {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.img-16 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img16.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-17 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img17.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-18 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img18.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-19 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img19.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-20 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img20.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-21 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img21.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-22 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-23 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-24 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img24.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-25 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img25.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-26 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img26.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-27 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img27.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+    
+.img-28 {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img28.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-29 {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 7, 5, 0.1)), url(../img/img29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
 body {
   overflow-x: hidden;
   background-color: #db162f; }

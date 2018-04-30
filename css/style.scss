@@ -246,7 +246,7 @@ body {
         padding: 0px 6%;
     }
     .mytext h1 {
-        font-size: 6.5vh;
+        font-size: 6vh;
         font-weight: 700;
         margin-bottom: 2.5%;
     }
@@ -654,6 +654,22 @@ body {
         font-size: 12px;
         a {
             color: $red;
+        }
+    }
+}
+@media screen and (max-width: 700px) { 
+    .num {
+        display: inline-block;
+        padding: 15px;
+        margin: 10px auto;
+        a {
+            border-bottom: 3px solid $red;
+            padding: 5px;
+            font-size: 2.5vh;
+            color: $darkgrey;
+            background-color: red;
+            text-decoration: none;
+            font-weight: 700;
         }
     }
 }
